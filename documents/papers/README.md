@@ -10,12 +10,9 @@ Proceedings of the 13th International Workshop on Semantic Evaluation, 355-359.
 Cristian Simionescu et al. (2020). \
 Procedia Computer Science, 176, 2773-2782.
 
-## Preprints
-
-[<b>ElectroWay: Smart Routing for Electric Car Charging</b>](<./preprint/SYNASC_2021_ElectroWay.pdf>)\
-Dragos Tudorache & Cristian Simionescu (2021). \
-Submitted to SYNASC 2021
-
 [<b>UAIC at ImageCLEF 2021 Tuberculosis - TBT classification</b>](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2021/paper-102.pdf)\
 Hanganu Alexandra et al. (2021). \
 Working notes to be published in the CEUR-WS Proceedings
+
+## Preprints
+
