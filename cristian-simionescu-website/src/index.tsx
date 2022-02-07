@@ -1,9 +1,8 @@
-import React from "react";
 import ReactDOM from "react-dom";
 import App from "./modules/app";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import { GlobalStyle, Theme } from "./assets/themes/theme";
+import { GlobalStyle, Theme } from "./theme";
 import { ThemeProvider } from "styled-components";
 
 const Root = () => (

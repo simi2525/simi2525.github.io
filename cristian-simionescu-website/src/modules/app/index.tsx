@@ -1,13 +1,13 @@
-import { Route, Switch } from "react-router";
+import { Routes, Route } from "react-router-dom";
 import routes from "../../routes";
 
 const App = () => {
   return (
-    <Switch>
+    <Routes>
       {routes.map((router) => (
-        <Route {...router} />
+        <Route element={<router.component />} {...router} />
       ))}
-    </Switch>
+    </Routes>
   );
 };
 
