@@ -1,20 +1,21 @@
-import ReactDOM from "react-dom";
-import App from "./modules/app";
-import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
-import { GlobalStyle, Theme } from "./theme";
-import { ThemeProvider } from "styled-components";
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+
+import App from './modules/app';
+import reportWebVitals from './reportWebVitals';
+import { GlobalStyle, theme } from './theme';
 
 const Root = () => (
   <BrowserRouter>
-    <ThemeProvider theme={Theme}>
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
       <App />
     </ThemeProvider>
   </BrowserRouter>
 );
 
-ReactDOM.render(<Root />, document.getElementById("root"));
+ReactDOM.render(<Root />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

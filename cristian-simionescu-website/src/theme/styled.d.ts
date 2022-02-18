@@ -1,12 +1,27 @@
-import "styled-components";
+import 'styled-components';
+import { Breakpoints } from './breakpoints';
 
-declare module "styled-components" {
+declare module 'styled-components' {
+  export type SizeKeys = 'xx' | 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+
+  export type Size = {
+    [key in SizeKeys]: string;
+  };
+
   export interface DefaultTheme {
-    borderRadius: string;
-
     colors: {
-      main: string;
-      secondary: string;
+      primary: {
+        background: string;
+        accent: string;
+        text: string;
+      };
+      secondary: {
+        highlight: string;
+        text: string;
+      };
     };
+    spacing: Size;
+    fontSize: Size;
+    breakpoints: Breakpoints;
   }
 }

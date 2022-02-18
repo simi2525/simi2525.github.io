@@ -1,11 +1,12 @@
-import { Routes, Route } from "react-router-dom";
-import routes from "../../routes";
+import { Routes, Route } from 'react-router-dom';
+
+import routes, { RouteDefinition } from '@/routes';
 
 const App = () => {
   return (
     <Routes>
-      {routes.map((router) => (
-        <Route element={<router.component />} {...router} />
+      {routes.map(({ key, ...router }: RouteDefinition) => (
+        <Route key={key} {...router} />
       ))}
     </Routes>
   );
