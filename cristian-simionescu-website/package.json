@@ -1,6 +1,6 @@
 {
   "name": "cristian-simionescu-website",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.3",
@@ -31,7 +31,9 @@
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\"",
     "format": "npm run prettier -- --write",
     "check-types": "tsc --project tsconfig.json --pretty --noEmit",
-    "check-format": "npm run prettier -- --list-different"
+    "check-format": "npm run prettier -- --list-different",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "browserslist": {
     "production": [
@@ -49,6 +51,17 @@
     "babel-loader": "8.1.0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack4": "^6.5.9",
+    "@storybook/manager-webpack4": "^6.5.9",
+    "@storybook/node-logger": "^6.5.9",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "0.0.13",
+    "@storybook/theming": "^6.5.9",
     "@testing-library/react": "^11.2.7",
     "@typescript-eslint/eslint-plugin": "^4.25.0",
     "@typescript-eslint/parser": "^4.25.0",
@@ -80,6 +93,14 @@
       {
         "files": [
           ""
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      },
+      {
+        "files": [
+          "**/*.stories.*"
         ],
         "rules": {
           "import/no-anonymous-default-export": "off"
