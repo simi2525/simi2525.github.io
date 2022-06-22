@@ -16,7 +16,7 @@ const routes: RouteDefinition[] = [
   {
     element: <NotFound />,
     path: '*',
-    key: 'notFound',
+    key: 'not-found',
   },
 ];
 
