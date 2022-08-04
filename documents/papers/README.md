@@ -20,3 +20,8 @@ Working notes to be published in the CEUR-WS Proceedings
 Mihai-Dimitrie Minut, , Diana-Isabela Crainic, C ̆at ̆alin Sum ̆anaru, Ciprian Danis, , Ioan Sava, Cristian Simionescu, Adrian Iftene \
 INISTA 2022 \
 [Presentation](https://www.youtube.com/watch?v=F3X04d_Z1ls&ab_channel=TensorReloaded)
+
+[<b>ElectroWay: Smart Routing for Electric Car Charging  - INISTA 2022</b>](TBD)\
+Dragos Tudorache and Cristian Simionescu \
+INISTA 2022 \
+[Presentation](https://youtu.be/O9BjnwheuPg)
