@@ -10,7 +10,7 @@ module.exports = {
     '@storybook/preset-create-react-app',
   ],
   framework: '@storybook/react',
-  staticDirs: ['../public', '../src/assets/images'],
+  staticDirs: ['../public', '../src'],
   webpackFinal: async (config) => {
     config.resolve.plugins = config.resolve.plugins || [];
     config.resolve.plugins.push(

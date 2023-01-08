@@ -20,7 +20,7 @@ const theme: DefaultTheme = {
   colors: {
     primary: {
       background: '#000033',
-      accent: '#971C7A',
+      accent: '#65c8c3',
       text: '#FFFFFF',
     },
     secondary: {

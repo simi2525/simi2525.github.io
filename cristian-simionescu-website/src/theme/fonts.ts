@@ -49,4 +49,40 @@ export default css`
       /* Modern Browsers */ url('./fonts/roboto-v29-latin-900.ttf') format('truetype'),
       /* Safari, Android, iOS */ url('./fonts/roboto-v29-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
   }
+  /* robotoMono */
+  @font-face {
+    font-family: 'RobotoMono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/RobotoMono-VariableFont_wght.ttf'); /* IE9 Compat Modes */
+    src: local(''), url('./fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Biko';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biko Regular'), url('./fonts/Biko_Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Biko Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biko Light'), url('./fonts/Biko_Light-Restricted.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Biko Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biko Bold'), url('./fonts/Biko_Bold.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Biko Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Biko Black'), url('./fonts/Biko_Black.woff') format('woff');
+  }
 `;

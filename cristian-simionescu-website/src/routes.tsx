@@ -1,5 +1,5 @@
-import Home from '@/modules/home';
-import NotFound from '@/modules/not-found';
+import Home from '@/modules/Home';
+import NotFound from '@/modules/NotFound';
 
 export interface RouteDefinition {
   element: JSX.Element;

@@ -1,1 +1,52 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 517 167"><defs><style>.cls-1{font-size:60px;font-family:Biko;}.cls-1,.cls-8{fill:#fff;}.cls-2{letter-spacing:0.02em;}.cls-3{letter-spacing:0.03em;}.cls-4{letter-spacing:0.01em;}.cls-5{letter-spacing:-0.01em;}.cls-6{letter-spacing:0.03em;}.cls-7{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:3px;}</style></defs><text class="cls-1" transform="translate(149.3 101.32)">S<tspan class="cls-2" x="36.06" y="0">I</tspan><tspan class="cls-3" x="53.46" y="0">M</tspan><tspan class="cls-4" x="103.86" y="0">I</tspan><tspan class="cls-5" x="120.66" y="0">O</tspan><tspan x="168.84" y="0">N</tspan><tspan class="cls-6" x="213.72" y="0">E</tspan><tspan x="249.84" y="0">SCU</tspan></text><polyline class="cls-7" points="165.5 33.5 165.5 1.5 1.5 1.5 1.5 165.5 165.5 165.5 165.5 133.5"/><path class="cls-8" d="M39,38.5v90h90v-90ZM84.93,99.26a17.19,17.19,0,0,0,13.83-6.91L99.84,91l7.63,5.62L106.32,98a26.49,26.49,0,0,1-21.39,10.72A26.34,26.34,0,0,1,66,100.92a24.76,24.76,0,0,1-5.77-8.57,25.82,25.82,0,0,1-2.16-10.44A26.8,26.8,0,0,1,97,58a26.41,26.41,0,0,1,9.43,7.92l1.15,1.44-7.7,5.69-1.08-1.44A17,17,0,0,0,84.93,64.7a17.28,17.28,0,1,0,0,34.56Z"/></svg>
+<svg id="Logo" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 517 167">
+    <defs>
+        <style>
+            .cls-1 {
+                font-size: 60px;
+                font-family: Biko;
+            }
+
+            .cls-1,
+            .cls-8 {
+                fill: #fff;
+            }
+
+            .cls-2 {
+                letter-spacing: 0.02em;
+            }
+
+            .cls-3 {
+                letter-spacing: 0.03em;
+            }
+
+            .cls-4 {
+                letter-spacing: 0.01em;
+            }
+
+            .cls-5 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-6 {
+                letter-spacing: 0.03em;
+            }
+
+            .cls-7 {
+                fill: none;
+                stroke: #fff;
+                stroke-miterlimit: 10;
+                stroke-width: 3px;
+            }
+        </style>
+    </defs><text class="cls-1" transform="translate(149.3 101.32)">S<tspan class="cls-2" x="36.06" y="0">I</tspan>
+        <tspan class="cls-3" x="53.46" y="0">M</tspan>
+        <tspan class="cls-4" x="103.86" y="0">I</tspan>
+        <tspan class="cls-5" x="120.66" y="0">O</tspan>
+        <tspan x="168.84" y="0">N</tspan>
+        <tspan class="cls-6" x="213.72" y="0">E</tspan>
+        <tspan x="249.84" y="0">SCU</tspan>
+    </text>
+    <polyline class="cls-7" points="165.5 33.5 165.5 1.5 1.5 1.5 1.5 165.5 165.5 165.5 165.5 133.5" />
+    <path class="cls-8"
+        d="M39,38.5v90h90v-90ZM84.93,99.26a17.19,17.19,0,0,0,13.83-6.91L99.84,91l7.63,5.62L106.32,98a26.49,26.49,0,0,1-21.39,10.72A26.34,26.34,0,0,1,66,100.92a24.76,24.76,0,0,1-5.77-8.57,25.82,25.82,0,0,1-2.16-10.44A26.8,26.8,0,0,1,97,58a26.41,26.41,0,0,1,9.43,7.92l1.15,1.44-7.7,5.69-1.08-1.44A17,17,0,0,0,84.93,64.7a17.28,17.28,0,1,0,0,34.56Z" />
+</svg>
