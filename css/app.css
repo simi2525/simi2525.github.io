@@ -2,7 +2,7 @@
     font-family: 'Biko';
     font-style: normal;
     font-weight: normal;
-    src: local('Biko Regular'), url('fonts/Biko_Regular.woff') format('woff');
+    src: local('Biko Regular'), url('/assets/fonts/Biko_Regular.woff') format('woff');
 }
 
 

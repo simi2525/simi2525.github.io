@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-YgN7K1SV9CNrDE\/lsr9F3N+nEwY4kum2xuM1LlSoB58=",
+      "hash": "sha256-\/tUNAztAUsGW+2ey1MCAKtoeW7GQvFTA4ZdeyVUj6+8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -33,11 +33,11 @@
       "url": "_framework\/dotnet.native.8.0.0-rc.1.23419.4.6d451ju3b3.js"
     },
     {
-      "hash": "sha256-5+9gYvHQi3BDABClIGbaEyEaFkNH5dP9a9GCoSfCCY0=",
+      "hash": "sha256-oiaoytnZYwPHFQooksG6NtbzIvk80QzTP9aQTrg3r7c=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-ewCeX+J1g7dCp4tvhXI2PA6NmECKmGoItApWtfw3tm4=",
+      "hash": "sha256-E37eON8uxqcg6nE2uGL6crEQrV7sIwLse5vxIOyqW28=",
       "url": "_framework\/cristian.simionescu.me.wasm"
     },
     {
@@ -365,7 +365,7 @@
       "url": "assets\/images\/SVG\/Logo.svg"
     },
     {
-      "hash": "sha256-SoRU+eJl2k5r+d\/H5mL4K1IJLUIcBXFLIP2KSuXuen8=",
+      "hash": "sha256-4mJ5afLaowVMuW1RR4LbpMujhV\/OIx9FOJKeligxL+U=",
       "url": "css\/app.css"
     },
     {
@@ -417,19 +417,7 @@
       "url": "documents\/papers\/Social_Media_Post_Impact_Prediction.pdf"
     },
     {
-      "hash": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
-      "url": "favicon.png"
-    },
-    {
-      "hash": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=",
-      "url": "icon-192.png"
-    },
-    {
-      "hash": "sha256-oEo6d+KqX5fjxTiZk\/w9NB3Mi0+ycS5yLwCKwr4IkbA=",
-      "url": "icon-512.png"
-    },
-    {
-      "hash": "sha256-r7kR3CoNmucbN\/7rdBWE\/nOHpnw+vk0fSsTICLcDLJo=",
+      "hash": "sha256-Px3+4TyIo12nmThEnSdD0Ut3I44z\/AxTmOrxOhf5eLo=",
       "url": "index.html"
     },
     {
@@ -445,5 +433,5 @@
       "url": "manifest.webmanifest"
     }
   ],
-  "version": "sUmS5K8p"
+  "version": "D\/US1ERH"
 };
