@@ -1,0 +1,156 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="cristian-simionescu-website\**" />
+    <Content Remove="cristian-simionescu-website\**" />
+    <EmbeddedResource Remove="cristian-simionescu-website\**" />
+    <None Remove="cristian-simionescu-website\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\CNAME" />
+    <Content Remove="wwwroot\favicon-dark.ico" />
+    <Content Remove="wwwroot\favicon-light.ico" />
+    <Content Remove="wwwroot\fonts\Biko_Black.woff" />
+    <Content Remove="wwwroot\fonts\Biko_Bold.woff" />
+    <Content Remove="wwwroot\fonts\Biko_Light-Restricted.woff" />
+    <Content Remove="wwwroot\fonts\Biko_Regular.woff" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-700.eot" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-700.svg" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-700.ttf" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-700.woff" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-700.woff2" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-900.eot" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-900.svg" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-900.ttf" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-900.woff" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-900.woff2" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-italic.eot" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-italic.svg" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-italic.ttf" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-italic.woff" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-italic.woff2" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-regular.eot" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-regular.svg" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-regular.ttf" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-regular.woff" />
+    <Content Remove="wwwroot\fonts\roboto-v29-latin-regular.woff2" />
+    <Content Remove="wwwroot\fonts\RobotoMono-VariableFont_wght.ttf" />
+    <Content Remove="wwwroot\robots.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\CV.pdf" />
+    <None Include="wwwroot\assets\Design System.pdf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Wavehaus-128Bold.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Wavehaus-158ExtraBold.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Wavehaus-28Thin.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Wavehaus-42Light.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Wavehaus-66Book.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Wavehaus-95SemiBold.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Web Font\Wavehaus-128Bold.woff" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Web Font\Wavehaus-158ExtraBold.woff" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Web Font\Wavehaus-28Thin.woff" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Web Font\Wavehaus-42Light.woff" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Web Font\Wavehaus-66Book.woff" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\Web Font\Wavehaus-95SemiBold.woff" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\__MACOSX\._Wavehaus-128Bold.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\__MACOSX\._Wavehaus-158ExtraBold.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\__MACOSX\._Wavehaus-28Thin.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\__MACOSX\._Wavehaus-42Light.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\__MACOSX\._Wavehaus-66Book.otf" />
+    <None Include="wwwroot\assets\fonts\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\__MACOSX\._Wavehaus-95SemiBold.otf" />
+    <None Include="wwwroot\assets\illustrator\Favicon blue.ai" />
+    <None Include="wwwroot\assets\illustrator\Favicon.ai" />
+    <None Include="wwwroot\assets\illustrator\First page.ai" />
+    <None Include="wwwroot\assets\illustrator\home.pdf" />
+    <None Include="wwwroot\assets\illustrator\Logo blue small.ai" />
+    <None Include="wwwroot\assets\illustrator\Logo blue.ai" />
+    <None Include="wwwroot\assets\illustrator\Logo small.ai" />
+    <None Include="wwwroot\assets\illustrator\Logo.ai" />
+    <None Include="wwwroot\assets\images\ICO\Favicon-blue.ico" />
+    <None Include="wwwroot\assets\images\ICO\Favicon.ico" />
+    <None Include="wwwroot\assets\images\PNG\Favicon-blue.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon-blue_16.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon-blue_24.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon-blue_32.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon-blue_48.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon-blue_64.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon-blue_96.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon_16.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon_24.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon_32.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon_48.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon_64.png" />
+    <None Include="wwwroot\assets\images\PNG\Favicon_96.png" />
+    <None Include="wwwroot\assets\images\PNG\Logo blue small.png" />
+    <None Include="wwwroot\assets\images\PNG\Logo small.png" />
+    <None Include="wwwroot\assets\images\PNG\Logo-blue.png" />
+    <None Include="wwwroot\assets\images\PNG\Logo.png" />
+    <None Include="wwwroot\assets\images\SVG\Favicon-blue.svg" />
+    <None Include="wwwroot\assets\images\SVG\Favicon.svg" />
+    <None Include="wwwroot\assets\images\SVG\Logo-blue.svg" />
+    <None Include="wwwroot\assets\images\SVG\Logo.svg" />
+    <None Include="wwwroot\CNAME" />
+    <None Include="wwwroot\documents\Cristian_s_CV_Ro.pdf" />
+    <None Include="wwwroot\documents\papers\ElectroWay___Presentation.pdf" />
+    <None Include="wwwroot\documents\papers\README.md" />
+    <None Include="wwwroot\documents\papers\Social_Media_Post_Impact_Prediction.pdf" />
+    <None Include="wwwroot\favicon-dark.ico" />
+    <None Include="wwwroot\favicon-light.ico" />
+    <None Include="wwwroot\fonts\Biko_Black.woff" />
+    <None Include="wwwroot\fonts\Biko_Bold.woff" />
+    <None Include="wwwroot\fonts\Biko_Light-Restricted.woff" />
+    <None Include="wwwroot\fonts\Biko_Regular.woff" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-700.eot" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-700.svg" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-700.ttf" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-700.woff" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-700.woff2" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-900.eot" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-900.svg" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-900.ttf" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-900.woff" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-900.woff2" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-italic.eot" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-italic.svg" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-italic.ttf" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-italic.woff" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-italic.woff2" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-regular.eot" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-regular.svg" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-regular.ttf" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-regular.woff" />
+    <None Include="wwwroot\fonts\roboto-v29-latin-regular.woff2" />
+    <None Include="wwwroot\fonts\RobotoMono-VariableFont_wght.ttf" />
+    <None Include="wwwroot\robots.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0-rc.1.23421.29" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0-rc.1.23421.29" PrivateAssets="all" />
+    <PackageReference Include="MudBlazor" Version="6.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\manifest-dark.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\manifest-light.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

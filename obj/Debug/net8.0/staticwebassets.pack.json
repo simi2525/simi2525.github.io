@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\obj\\Debug\\net8.0\\compressed\\fgq8u9mpbu.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\obj\\Debug\\net8.0\\scopedcss\\bundle\\cristian.simionescu.me.styles.css",
+      "PackagePath": "staticwebassets\\cristian.simionescu.me.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\CV.pdf",
+      "PackagePath": "staticwebassets\\assets\\CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\Design System.pdf",
+      "PackagePath": "staticwebassets\\assets\\Design System.pdf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-128Bold.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-128Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-158ExtraBold.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-158ExtraBold.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-28Thin.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-28Thin.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-42Light.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-42Light.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-66Book.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-66Book.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-95SemiBold.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Wavehaus-95SemiBold.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-128Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-128Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-158ExtraBold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-158ExtraBold.woff"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-28Thin.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-28Thin.woff"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-42Light.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-42Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-66Book.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-66Book.woff"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-95SemiBold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\Web Font\\Wavehaus-95SemiBold.woff"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-128Bold.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-128Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-158ExtraBold.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-158ExtraBold.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-28Thin.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-28Thin.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-42Light.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-42Light.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-66Book.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-66Book.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-95SemiBold.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Wavehaus_Sans_Free_Typeface_Graham_Paterson_271219\\__MACOSX\\._Wavehaus-95SemiBold.otf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\illustrator\\Favicon blue.ai",
+      "PackagePath": "staticwebassets\\assets\\illustrator\\Favicon blue.ai"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\illustrator\\Favicon.ai",
+      "PackagePath": "staticwebassets\\assets\\illustrator\\Favicon.ai"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\illustrator\\First page.ai",
+      "PackagePath": "staticwebassets\\assets\\illustrator\\First page.ai"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\illustrator\\Logo blue small.ai",
+      "PackagePath": "staticwebassets\\assets\\illustrator\\Logo blue small.ai"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\illustrator\\Logo blue.ai",
+      "PackagePath": "staticwebassets\\assets\\illustrator\\Logo blue.ai"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\illustrator\\Logo small.ai",
+      "PackagePath": "staticwebassets\\assets\\illustrator\\Logo small.ai"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\illustrator\\Logo.ai",
+      "PackagePath": "staticwebassets\\assets\\illustrator\\Logo.ai"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\illustrator\\home.pdf",
+      "PackagePath": "staticwebassets\\assets\\illustrator\\home.pdf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\ICO\\Favicon-blue.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\ICO\\Favicon-blue.ico"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\ICO\\Favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\ICO\\Favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon-blue.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon-blue_16.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon-blue_16.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon-blue_24.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon-blue_24.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon-blue_32.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon-blue_32.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon-blue_48.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon-blue_48.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon-blue_64.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon-blue_64.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon-blue_96.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon-blue_96.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon_16.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon_16.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon_24.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon_24.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon_32.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon_32.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon_48.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon_48.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon_64.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon_64.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Favicon_96.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Favicon_96.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Logo blue small.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Logo blue small.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Logo small.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Logo small.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Logo-blue.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Logo-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\PNG\\Logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PNG\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\SVG\\Favicon-blue.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\SVG\\Favicon-blue.svg"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\SVG\\Favicon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\SVG\\Favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\SVG\\Logo-blue.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\SVG\\Logo-blue.svg"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\assets\\images\\SVG\\Logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\SVG\\Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\documents\\Cristian_s_CV_Ro.pdf",
+      "PackagePath": "staticwebassets\\documents\\Cristian_s_CV_Ro.pdf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\documents\\papers\\ElectroWay___Presentation.pdf",
+      "PackagePath": "staticwebassets\\documents\\papers\\ElectroWay___Presentation.pdf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\documents\\papers\\README.md",
+      "PackagePath": "staticwebassets\\documents\\papers\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\documents\\papers\\Social_Media_Post_Impact_Prediction.pdf",
+      "PackagePath": "staticwebassets\\documents\\papers\\Social_Media_Post_Impact_Prediction.pdf"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\manifest-dark.json",
+      "PackagePath": "staticwebassets\\manifest-dark.json"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\manifest-light.json",
+      "PackagePath": "staticwebassets\\manifest-light.json"
+    },
+    {
+      "Id": "C:\\Users\\CristianSimionescu\\Desktop\\Teaching\\simi2525.github.io\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.cristian.simionescu.me.props",
+      "PackagePath": "build\\cristian.simionescu.me.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.cristian.simionescu.me.props",
+      "PackagePath": "buildMultiTargeting\\cristian.simionescu.me.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.cristian.simionescu.me.props",
+      "PackagePath": "buildTransitive\\cristian.simionescu.me.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.cristian.simionescu.me.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

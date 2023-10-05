@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Cristian Simionescu</title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="cristian.simionescu.me.styles.css" rel="stylesheet" />
+    <link href="manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+
+    <link rel="icon" id="favicon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Cristian Simionescu website - Projects, About me" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" id="manifest" href="manifest.json" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.cdnfonts.com/css/biko" rel="stylesheet">
+
+
+    <script>
+        const usesDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches || false;
+        const favicon = document.getElementById('favicon');
+        const manifest = document.getElementById('manifest');
+
+        function switchIcon(usesDarkMode) {
+            if (usesDarkMode) {
+                favicon.href = 'favicon-dark.ico';
+                manifest.href = 'manifest-dark.json';
+            } else {
+                favicon.href = 'favicon-light.ico';
+                manifest.href = 'manifest-light.json';
+            }
+        }
+
+
+        window
+            .matchMedia('(prefers-color-scheme: dark)')
+            .addEventListener('change', (e) => switchIcon(e.matches));
+        switchIcon(usesDarkMode);
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+
+</body>
+
+</html>
