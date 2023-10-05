@@ -5153,6 +5153,181 @@ var ___wasm_call_ctors = function() {
 };
 
 /** @type {function(...*):?} */
+var _pow = Module["_pow"] = function() {
+  return (_pow = Module["_pow"] = Module["asm"]["pow"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _memset = Module["_memset"] = function() {
+  return (_memset = Module["_memset"] = Module["asm"]["memset"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_AspNetCore_Components_get_method = Module["_mono_aot_Microsoft_AspNetCore_Components_get_method"] = function() {
+  return (_mono_aot_Microsoft_AspNetCore_Components_get_method = Module["_mono_aot_Microsoft_AspNetCore_Components_get_method"] = Module["asm"]["mono_aot_Microsoft_AspNetCore_Components_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_AspNetCore_Components_Web_get_method = Module["_mono_aot_Microsoft_AspNetCore_Components_Web_get_method"] = function() {
+  return (_mono_aot_Microsoft_AspNetCore_Components_Web_get_method = Module["_mono_aot_Microsoft_AspNetCore_Components_Web_get_method"] = Module["asm"]["mono_aot_Microsoft_AspNetCore_Components_Web_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_AspNetCore_Components_WebAssembly_get_method = Module["_mono_aot_Microsoft_AspNetCore_Components_WebAssembly_get_method"] = function() {
+  return (_mono_aot_Microsoft_AspNetCore_Components_WebAssembly_get_method = Module["_mono_aot_Microsoft_AspNetCore_Components_WebAssembly_get_method"] = Module["asm"]["mono_aot_Microsoft_AspNetCore_Components_WebAssembly_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_Extensions_Configuration_get_method = Module["_mono_aot_Microsoft_Extensions_Configuration_get_method"] = function() {
+  return (_mono_aot_Microsoft_Extensions_Configuration_get_method = Module["_mono_aot_Microsoft_Extensions_Configuration_get_method"] = Module["asm"]["mono_aot_Microsoft_Extensions_Configuration_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_Extensions_Configuration_Abstractions_get_method = Module["_mono_aot_Microsoft_Extensions_Configuration_Abstractions_get_method"] = function() {
+  return (_mono_aot_Microsoft_Extensions_Configuration_Abstractions_get_method = Module["_mono_aot_Microsoft_Extensions_Configuration_Abstractions_get_method"] = Module["asm"]["mono_aot_Microsoft_Extensions_Configuration_Abstractions_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_Extensions_Configuration_Json_get_method = Module["_mono_aot_Microsoft_Extensions_Configuration_Json_get_method"] = function() {
+  return (_mono_aot_Microsoft_Extensions_Configuration_Json_get_method = Module["_mono_aot_Microsoft_Extensions_Configuration_Json_get_method"] = Module["asm"]["mono_aot_Microsoft_Extensions_Configuration_Json_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_Extensions_DependencyInjection_get_method = Module["_mono_aot_Microsoft_Extensions_DependencyInjection_get_method"] = function() {
+  return (_mono_aot_Microsoft_Extensions_DependencyInjection_get_method = Module["_mono_aot_Microsoft_Extensions_DependencyInjection_get_method"] = Module["asm"]["mono_aot_Microsoft_Extensions_DependencyInjection_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_Extensions_DependencyInjection_Abstractions_get_method = Module["_mono_aot_Microsoft_Extensions_DependencyInjection_Abstractions_get_method"] = function() {
+  return (_mono_aot_Microsoft_Extensions_DependencyInjection_Abstractions_get_method = Module["_mono_aot_Microsoft_Extensions_DependencyInjection_Abstractions_get_method"] = Module["asm"]["mono_aot_Microsoft_Extensions_DependencyInjection_Abstractions_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_Extensions_Logging_get_method = Module["_mono_aot_Microsoft_Extensions_Logging_get_method"] = function() {
+  return (_mono_aot_Microsoft_Extensions_Logging_get_method = Module["_mono_aot_Microsoft_Extensions_Logging_get_method"] = Module["asm"]["mono_aot_Microsoft_Extensions_Logging_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_Extensions_Logging_Abstractions_get_method = Module["_mono_aot_Microsoft_Extensions_Logging_Abstractions_get_method"] = function() {
+  return (_mono_aot_Microsoft_Extensions_Logging_Abstractions_get_method = Module["_mono_aot_Microsoft_Extensions_Logging_Abstractions_get_method"] = Module["asm"]["mono_aot_Microsoft_Extensions_Logging_Abstractions_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_Extensions_Options_get_method = Module["_mono_aot_Microsoft_Extensions_Options_get_method"] = function() {
+  return (_mono_aot_Microsoft_Extensions_Options_get_method = Module["_mono_aot_Microsoft_Extensions_Options_get_method"] = Module["asm"]["mono_aot_Microsoft_Extensions_Options_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_Extensions_Primitives_get_method = Module["_mono_aot_Microsoft_Extensions_Primitives_get_method"] = function() {
+  return (_mono_aot_Microsoft_Extensions_Primitives_get_method = Module["_mono_aot_Microsoft_Extensions_Primitives_get_method"] = Module["asm"]["mono_aot_Microsoft_Extensions_Primitives_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_Microsoft_JSInterop_get_method = Module["_mono_aot_Microsoft_JSInterop_get_method"] = function() {
+  return (_mono_aot_Microsoft_JSInterop_get_method = Module["_mono_aot_Microsoft_JSInterop_get_method"] = Module["asm"]["mono_aot_Microsoft_JSInterop_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_cristian_simionescu_me_get_method = Module["_mono_aot_cristian_simionescu_me_get_method"] = function() {
+  return (_mono_aot_cristian_simionescu_me_get_method = Module["_mono_aot_cristian_simionescu_me_get_method"] = Module["asm"]["mono_aot_cristian_simionescu_me_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Collections_Concurrent_get_method = Module["_mono_aot_System_Collections_Concurrent_get_method"] = function() {
+  return (_mono_aot_System_Collections_Concurrent_get_method = Module["_mono_aot_System_Collections_Concurrent_get_method"] = Module["asm"]["mono_aot_System_Collections_Concurrent_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Collections_get_method = Module["_mono_aot_System_Collections_get_method"] = function() {
+  return (_mono_aot_System_Collections_get_method = Module["_mono_aot_System_Collections_get_method"] = Module["asm"]["mono_aot_System_Collections_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_ComponentModel_get_method = Module["_mono_aot_System_ComponentModel_get_method"] = function() {
+  return (_mono_aot_System_ComponentModel_get_method = Module["_mono_aot_System_ComponentModel_get_method"] = Module["asm"]["mono_aot_System_ComponentModel_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Linq_get_method = Module["_mono_aot_System_Linq_get_method"] = function() {
+  return (_mono_aot_System_Linq_get_method = Module["_mono_aot_System_Linq_get_method"] = Module["asm"]["mono_aot_System_Linq_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Memory_get_method = Module["_mono_aot_System_Memory_get_method"] = function() {
+  return (_mono_aot_System_Memory_get_method = Module["_mono_aot_System_Memory_get_method"] = Module["asm"]["mono_aot_System_Memory_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Net_Http_get_method = Module["_mono_aot_System_Net_Http_get_method"] = function() {
+  return (_mono_aot_System_Net_Http_get_method = Module["_mono_aot_System_Net_Http_get_method"] = Module["asm"]["mono_aot_System_Net_Http_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Net_Primitives_get_method = Module["_mono_aot_System_Net_Primitives_get_method"] = function() {
+  return (_mono_aot_System_Net_Primitives_get_method = Module["_mono_aot_System_Net_Primitives_get_method"] = Module["asm"]["mono_aot_System_Net_Primitives_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Private_Uri_get_method = Module["_mono_aot_System_Private_Uri_get_method"] = function() {
+  return (_mono_aot_System_Private_Uri_get_method = Module["_mono_aot_System_Private_Uri_get_method"] = Module["asm"]["mono_aot_System_Private_Uri_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Runtime_InteropServices_JavaScript_get_method = Module["_mono_aot_System_Runtime_InteropServices_JavaScript_get_method"] = function() {
+  return (_mono_aot_System_Runtime_InteropServices_JavaScript_get_method = Module["_mono_aot_System_Runtime_InteropServices_JavaScript_get_method"] = Module["asm"]["mono_aot_System_Runtime_InteropServices_JavaScript_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Runtime_get_method = Module["_mono_aot_System_Runtime_get_method"] = function() {
+  return (_mono_aot_System_Runtime_get_method = Module["_mono_aot_System_Runtime_get_method"] = Module["asm"]["mono_aot_System_Runtime_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Text_Encodings_Web_get_method = Module["_mono_aot_System_Text_Encodings_Web_get_method"] = function() {
+  return (_mono_aot_System_Text_Encodings_Web_get_method = Module["_mono_aot_System_Text_Encodings_Web_get_method"] = Module["asm"]["mono_aot_System_Text_Encodings_Web_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Text_Json_get_method = Module["_mono_aot_System_Text_Json_get_method"] = function() {
+  return (_mono_aot_System_Text_Json_get_method = Module["_mono_aot_System_Text_Json_get_method"] = Module["asm"]["mono_aot_System_Text_Json_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_System_Text_RegularExpressions_get_method = Module["_mono_aot_System_Text_RegularExpressions_get_method"] = function() {
+  return (_mono_aot_System_Text_RegularExpressions_get_method = Module["_mono_aot_System_Text_RegularExpressions_get_method"] = Module["asm"]["mono_aot_System_Text_RegularExpressions_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _sin = Module["_sin"] = function() {
+  return (_sin = Module["_sin"] = Module["asm"]["sin"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _cos = Module["_cos"] = function() {
+  return (_cos = Module["_cos"] = Module["asm"]["cos"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _log10 = Module["_log10"] = function() {
+  return (_log10 = Module["_log10"] = Module["asm"]["log10"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _fmodf = Module["_fmodf"] = function() {
+  return (_fmodf = Module["_fmodf"] = Module["asm"]["fmodf"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_corlib_get_method = Module["_mono_aot_corlib_get_method"] = function() {
+  return (_mono_aot_corlib_get_method = Module["_mono_aot_corlib_get_method"] = Module["asm"]["mono_aot_corlib_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
+var _mono_aot_aot_instances_get_method = Module["_mono_aot_aot_instances_get_method"] = function() {
+  return (_mono_aot_aot_instances_get_method = Module["_mono_aot_aot_instances_get_method"] = Module["asm"]["mono_aot_aot_instances_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
 var _mono_wasm_register_root = Module["_mono_wasm_register_root"] = function() {
   return (_mono_wasm_register_root = Module["_mono_wasm_register_root"] = Module["asm"]["mono_wasm_register_root"]).apply(null, arguments);
 };
@@ -5483,16 +5658,6 @@ var _mono_jiterp_interp_entry = Module["_mono_jiterp_interp_entry"] = function()
 };
 
 /** @type {function(...*):?} */
-var _memset = Module["_memset"] = function() {
-  return (_memset = Module["_memset"] = Module["asm"]["memset"]).apply(null, arguments);
-};
-
-/** @type {function(...*):?} */
-var _fmodf = Module["_fmodf"] = function() {
-  return (_fmodf = Module["_fmodf"] = Module["asm"]["fmodf"]).apply(null, arguments);
-};
-
-/** @type {function(...*):?} */
 var _fmod = Module["_fmod"] = function() {
   return (_fmod = Module["_fmod"] = Module["asm"]["fmod"]).apply(null, arguments);
 };
@@ -5528,11 +5693,6 @@ var _atanh = Module["_atanh"] = function() {
 };
 
 /** @type {function(...*):?} */
-var _cos = Module["_cos"] = function() {
-  return (_cos = Module["_cos"] = Module["asm"]["cos"]).apply(null, arguments);
-};
-
-/** @type {function(...*):?} */
 var _cbrt = Module["_cbrt"] = function() {
   return (_cbrt = Module["_cbrt"] = Module["asm"]["cbrt"]).apply(null, arguments);
 };
@@ -5558,16 +5718,6 @@ var _log2 = Module["_log2"] = function() {
 };
 
 /** @type {function(...*):?} */
-var _log10 = Module["_log10"] = function() {
-  return (_log10 = Module["_log10"] = Module["asm"]["log10"]).apply(null, arguments);
-};
-
-/** @type {function(...*):?} */
-var _sin = Module["_sin"] = function() {
-  return (_sin = Module["_sin"] = Module["asm"]["sin"]).apply(null, arguments);
-};
-
-/** @type {function(...*):?} */
 var _sinh = Module["_sinh"] = function() {
   return (_sinh = Module["_sinh"] = Module["asm"]["sinh"]).apply(null, arguments);
 };
@@ -5585,11 +5735,6 @@ var _tanh = Module["_tanh"] = function() {
 /** @type {function(...*):?} */
 var _atan2 = Module["_atan2"] = function() {
   return (_atan2 = Module["_atan2"] = Module["asm"]["atan2"]).apply(null, arguments);
-};
-
-/** @type {function(...*):?} */
-var _pow = Module["_pow"] = function() {
-  return (_pow = Module["_pow"] = Module["asm"]["pow"]).apply(null, arguments);
 };
 
 /** @type {function(...*):?} */
