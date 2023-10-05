@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -19,6 +19,8 @@
     <Content Remove="wwwroot\CNAME" />
     <Content Remove="wwwroot\favicon-dark.ico" />
     <Content Remove="wwwroot\favicon-light.ico" />
+    <Content Remove="wwwroot\Favicon.ico" />
+    <Content Remove="wwwroot\Favicon.png" />
     <Content Remove="wwwroot\fonts\Biko_Black.woff" />
     <Content Remove="wwwroot\fonts\Biko_Bold.woff" />
     <Content Remove="wwwroot\fonts\Biko_Light-Restricted.woff" />
@@ -107,6 +109,8 @@
     <None Include="wwwroot\documents\papers\Social_Media_Post_Impact_Prediction.pdf" />
     <None Include="wwwroot\favicon-dark.ico" />
     <None Include="wwwroot\favicon-light.ico" />
+    <None Include="wwwroot\Favicon.ico" />
+    <None Include="wwwroot\Favicon.png" />
     <None Include="wwwroot\fonts\Biko_Black.woff" />
     <None Include="wwwroot\fonts\Biko_Bold.woff" />
     <None Include="wwwroot\fonts\Biko_Light-Restricted.woff" />
