@@ -1,0 +1,42 @@
+{
+    "WeekNumber": 2,
+    "UploadFormLink": "https://forms.gle/s9eMn8HVifCxv2h89",
+    "Homework": "Din capitolul 0 (Fundamente): 89-93, 96-99, [138-140]",
+    "Deadline": "Deadline Ora 08:00 AM, Vineri, 13 Octombrie 2023.",
+    "StudentGroups":
+    [
+        {
+            "GroupName": "A1",
+            "PresentationStudents": [
+                "Al Ihtiar Peter",
+                "Puiu Andrei",
+                "Nicolae Martinescu"
+            ],
+            "RandomCheckStudents": [
+                "TBA"
+            ]
+        },
+        {
+            "GroupName": "A2",
+            "PresentationStudents": [
+                "Gavrila Maria-Denisa",
+                "Ghiorghi Ioana-Cristina",
+                "DULHAC ALEXANDRU"
+            ],
+            "RandomCheckStudents": [
+                "TBA"
+            ]
+        },
+        {
+            "GroupName": "A3",
+            "PresentationStudents": [
+                "Vasiluță Diana",
+                "Cristea Andrei-Radu",
+                "Ghiorghe Andrei Alexandru"
+            ],
+            "RandomCheckStudents": [
+                "TBA"
+            ]
+        }
+    ]
+}

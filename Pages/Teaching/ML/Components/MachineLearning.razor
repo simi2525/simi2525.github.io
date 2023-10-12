@@ -1,73 +1,30 @@
 ﻿@page "/teaching/ml"
 @page "/ml"
+@inject WeekDataService WeekDataService
 
 <PageTitle>Machine Learning</PageTitle>
 
 
-<section class="my-8 text-center">
-    <h1 class="text-4xl font-bold  mb-5">Machine Learning Laboratory</h1>
-</section>
-
-<section class="my-6 text-center">
-    <h2 class="text-3xl font-bold  mb-5">Saptamana 2</h2>
+<section class="mt-4 text-center">
+    <h1 class="text-4xl font-bold  mb-4">Machine Learning Laboratory</h1>
 </section>
 
 
-<section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
-    <h2 class="text-2xl font-semibold  mb-4">Tema Saptamana 2</h2>
-    <h3 class="text-xl font-semibold  mb-2">Din capitolul 0 (Fundamente): 89-93, 96-99</h3>
-    <p class="mb-4 ">
-        Deadline Ora 08:00 AM, Vineri, 13 Septembrie 2023.
-    </p>
-    <a href="https://forms.gle/s9eMn8HVifCxv2h89" target="_blank">
-        <button class="bg-white hover:bg-gray-300 text-[#000033] font-bold py-2 px-4 rounded transition duration-300">
-            Incarca Tema
-        </button>
-    </a>
-</section>
-
-<section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
-    <h2 class="text-2xl font-semibold  mb-4">Studenti alesi pentru prezentare la tabla:</h2>
-    <h3 class="text-xl font-semibold mb-2">Grupa A1:</h3>
-    <ul class="list-decimal pl-5 mb-4 ">
-        <li class="mb-1">Al Ihtiar Peter</li>
-        <li class="mb-1">Puiu Andrei</li>
-        <li class="mb-1">Nicolae Martinescu</li>
-    </ul>
-    <h3 class="text-xl font-semibold mb-2">Grupa A2:</h3>
-    <ul class="list-decimal pl-5 mb-4 ">
-        <li class="mb-1">Gavrila Maria-Denisa</li>
-        <li class="mb-1">Ghiorghi Ioana-Cristina</li>
-        <li class="mb-1">DULHAC ALEXANDRU</li>
-    </ul>
-    <h3 class="text-xl font-semibold mb-2">Grupa A3:</h3>
-    <ul class="list-decimal pl-5 mb-4 ">
-        <li class="mb-1">Vasiluță Diana </li>
-        <li class="mb-1">Cristea Andrei-Radu</li>
-        <li class="mb-1">Ghiorghe Andrei Alexandru</li>
-    </ul>
-</section>
-
-<section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
-    <h2 class="text-2xl font-semibold  mb-4">Studenti alesi aleatoriu pentru verificare tema:</h2>
-    
-    <ul class="list-decimal pl-5 mb-4 ">
-        <li class="mb-1">TBA</li>
-        <li class="mb-1">TBA</li>
-        <li class="mb-1">TBA</li>
-        <li class="mb-1">TBA</li>
-        <li class="mb-1">TBA</li>
-        <li class="mb-1">TBA</li>
-        <li class="mb-1">TBA</li>
-        <li class="mb-1">TBA</li>
-        <li class="mb-1">TBA</li>
-        <li class="mb-1">TBA</li>
-    </ul>
-</section>
+@foreach(var currentWeekData in weekData)
+{
+    <WeekComponent
+        WeekNumber="@currentWeekData.WeekNumber"
+        UploadFormLink="@currentWeekData.UploadFormLink"
+        Homework="@currentWeekData.Homework"
+        Deadline="@currentWeekData.Deadline"
+        StudentGroups="@currentWeekData.StudentGroups"
+    />
+}
 
 
-<section class="my-6 text-center">
-    <h2 class="text-3xl font-bold  mb-5">Saptamana 1</h2>
+
+<section class="mt-8 text-center">
+    <h2 class="text-3xl font-bold  mb-4">Saptamana 1</h2>
 </section>
 
 <section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
@@ -124,7 +81,7 @@
             <li>
                 Pentru fiecare seminar vor fi anuntati 2-4 studenti care trebuie sa se pregateasca sa prezinte exercitiile alocate saptamanii in cauza. In timpul laboratorului acestia vor prezenta la tabla rezolvarea lor, fara materiale a folosii notite/materiale printate, pentru 1-2 exercitii alese pe loc.
             </li>
-            <li> 
+            <li>
                 Fiecare student trebuie sa fie evaluat macar o data. In caz de 2 evaluari, va fi aleasa nota mai mare.
             </li>
         </ul>
@@ -154,5 +111,25 @@
 </section>
 
 
+
 @code {
+    private List<WeekData> weekData = new List<WeekData>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        WeekData aux;
+        aux = await WeekDataService.GetWeekDataAsync(2);
+        if (aux != null)
+        {
+            weekData.Add(aux);
+        }
+
+        aux = await WeekDataService.GetWeekDataAsync(3);
+        if (aux != null)
+        {
+            weekData.Add(aux);
+        }
+        
+        weekData.Reverse();
+    }
 }

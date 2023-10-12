@@ -15,6 +15,7 @@ namespace cristian.simionescu.me
             builder.RootComponents.Add<HeadOutlet>("head::after");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddScoped<WeekDataService>();
 
 
             await builder.Build().RunAsync();

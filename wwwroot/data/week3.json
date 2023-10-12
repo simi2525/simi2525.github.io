@@ -1,0 +1,33 @@
+{
+    "WeekNumber": 3,
+    "UploadFormLink": "https://forms.gle/ijfq8j96N7BiLeTt6",
+    "Homework": "TBA",
+    "Deadline": "Deadline Ora 08:00 AM, Vineri, 20 Octombrie 2023.",
+    "StudentGroups":
+    [
+        {
+            "GroupName": "A1",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+                "TBA"
+            ]
+        },
+        {
+            "GroupName": "A2",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+                "TBA"
+            ]
+        },
+        {
+            "GroupName": "A3",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+                "TBA"
+            ]
+        }
+    ]
+}
