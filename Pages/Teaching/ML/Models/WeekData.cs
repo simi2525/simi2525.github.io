@@ -1,3 +1,5 @@
+namespace cristian.simionescu.me;
+
 public class WeekData
 {
     public int WeekNumber { get; set; }

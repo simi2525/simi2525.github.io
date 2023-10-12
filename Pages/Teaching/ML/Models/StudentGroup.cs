@@ -1,3 +1,6 @@
+namespace cristian.simionescu.me;
+
+
 public class StudentGroup
 {
     public string GroupName { get; set; }
