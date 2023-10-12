@@ -1,4 +1,5 @@
 using System.Text.Json;
+namespace cristian.simionescu.me;
 
 public class WeekDataService
 {
