@@ -5248,6 +5248,11 @@ var _mono_aot_System_ComponentModel_get_method = Module["_mono_aot_System_Compon
 };
 
 /** @type {function(...*):?} */
+var _mono_aot_System_Diagnostics_DiagnosticSource_get_method = Module["_mono_aot_System_Diagnostics_DiagnosticSource_get_method"] = function() {
+  return (_mono_aot_System_Diagnostics_DiagnosticSource_get_method = Module["_mono_aot_System_Diagnostics_DiagnosticSource_get_method"] = Module["asm"]["mono_aot_System_Diagnostics_DiagnosticSource_get_method"]).apply(null, arguments);
+};
+
+/** @type {function(...*):?} */
 var _mono_aot_System_Linq_get_method = Module["_mono_aot_System_Linq_get_method"] = function() {
   return (_mono_aot_System_Linq_get_method = Module["_mono_aot_System_Linq_get_method"] = Module["asm"]["mono_aot_System_Linq_get_method"]).apply(null, arguments);
 };
