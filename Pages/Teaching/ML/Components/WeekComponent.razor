@@ -1,6 +1,5 @@
 @namespace cristian.simionescu.me
 
-
 <section class="mt-8 text-center">
     <h2 class="text-3xl font-bold mb-4">Saptamana @WeekNumber</h2>
 </section>
@@ -35,20 +34,6 @@
     }
 </section>
 
-@* <section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
-    <h2 class="text-2xl font-semibold mb-4">Studenti alesi aleatoriu pentru verificare tema:</h2>
-    @foreach (var group in StudentGroups)
-    {
-        <h3 class="text-xl font-semibold mb-2">@group.GroupName:</h3>
-        <ul class="list-decimal pl-5 mb-4">
-            @foreach (var student in group.RandomCheckStudents)
-            {
-                <li class="mb-1">@student</li>
-            }
-        </ul>
-    }
-</section> *@
-
 <section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
     <h2 class="text-2xl font-semibold mb-4">Studenti alesi aleatoriu pentru verificare tema:</h2>
 
@@ -56,14 +41,17 @@
     <div class="border-b border-gray-300 mb-4">
         @foreach (var group in StudentGroups)
         {
-            <button class="py-2 px-6 font-semibold hover:bg-gray-100 transition duration-300 @((group.GroupName == "A1") ? "border-b-4 border-blue-500" : "")" onclick="openGroup('@group.GroupName')">@group.GroupName</button>
+            <button class="py-2 px-6 font-semibold hover:bg-gray-100 transition duration-300 @(ActiveGroup == group.GroupName ? "border-b-4 border-blue-500" : "")" 
+                    @onclick="() => SetActiveGroup(group.GroupName)">
+                @group.GroupName
+            </button>
         }
     </div>
 
     <!-- Tab content -->
     @foreach (var group in StudentGroups)
     {
-        <div id="@group.GroupName" class="tab-content @((group.GroupName != "A1") ? "hidden" : "")">
+        <div class="tab-content @(ActiveGroup != group.GroupName ? "hidden" : "")">
             <ul class="list-decimal pl-5 mb-4">
                 @foreach (var student in group.RandomCheckStudents)
                 {
@@ -74,37 +62,17 @@
     }
 </section>
 
-<script>
-    function openGroup(groupName) {
-        var i;
-        var tabContents = document.getElementsByClassName("tab-content");
-        var tabButtons = document.getElementsByTagName("button");
-
-        // Hide all tab contents
-        for (i = 0; i < tabContents.length; i++) {
-            tabContents[i].style.display = "none";
-        }
-
-        // Remove the active style from all tab buttons
-        for (i = 0; i < tabButtons.length; i++) {
-            tabButtons[i].classList.remove("border-b-4", "border-blue-500");
-        }
-
-        // Show the selected tab content and style the active button
-        document.getElementById(groupName).style.display = "block";
-        for (i = 0; i < tabButtons.length; i++) {
-            if (tabButtons[i].textContent == groupName) {
-                tabButtons[i].classList.add("border-b-4", "border-blue-500");
-            }
-        }
-    }
-</script>
-
-
 @code {
     [Parameter] public int WeekNumber { get; set; }
     [Parameter] public string Homework { get; set; }
     [Parameter] public string UploadFormLink { get; set; }
     [Parameter] public string Deadline { get; set; }
     [Parameter] public List<StudentGroup> StudentGroups { get; set; } = new List<StudentGroup>();
+
+    private string ActiveGroup { get; set; } = "A1"; // Default active group
+
+    private void SetActiveGroup(string groupName)
+    {
+        ActiveGroup = groupName;
+    }
 }
