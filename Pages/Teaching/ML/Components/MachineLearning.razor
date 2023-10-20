@@ -10,6 +10,14 @@
     <h1 class="text-4xl font-bold  mb-4">Machine Learning Laboratory</h1>
 </section>
 
+<section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
+    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkm5gCkbFwQSMky4lVp3ccPx4u_v6DPu19ODryzSOkf3tS-JMe3D30RuLW1FJNuZysJHoL195jAgwc/pub?gid=189153332&single=true" target="_blank">
+        <button class="bg-white hover:bg-gray-300 text-[#000033] font-bold py-2 px-4 rounded transition duration-300">
+                Vezi note
+        </button>
+    </a>
+</section>
+
 
 @foreach(var currentWeekData in weekData)
 {
@@ -126,6 +134,12 @@
         }
 
         aux = await WeekDataService.GetWeekDataAsync(3);
+        if (aux != null)
+        {
+            weekData.Add(aux);
+        }
+
+        aux = await WeekDataService.GetWeekDataAsync(4);
         if (aux != null)
         {
             weekData.Add(aux);
