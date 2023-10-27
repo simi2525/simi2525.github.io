@@ -8,6 +8,8 @@
         {
             "GroupName": "A1",
             "PresentationStudents": [
+                "Nastasiu Stefan",
+                "Ursescu Claudiu"
             ],
             "RandomCheckStudents": [
                 "TBA"
@@ -16,6 +18,8 @@
         {
             "GroupName": "A2",
             "PresentationStudents": [
+                "Apostol Iustina",
+                "Bondor Laura-Genoveva"
             ],
             "RandomCheckStudents": [
                 "TBA"
@@ -24,6 +28,8 @@
         {
             "GroupName": "A3",
             "PresentationStudents": [
+                "Tiganus Riccardo Ionel",
+                "Bilba Adrian-Paul"
             ],
             "RandomCheckStudents": [
                 "TBA"
