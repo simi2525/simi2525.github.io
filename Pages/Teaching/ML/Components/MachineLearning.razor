@@ -7,8 +7,21 @@
 
 
 <section class="mt-4 text-center">
-    <h1 class="text-4xl font-bold  mb-4">Machine Learning Laboratory</h1>
+    <h1 class="text-4xl font-bold  mb-4">Machine Learning Seminar</h1>
 </section>
+
+<section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
+    <h2 class="text-2xl font-semibold  mb-4">Atentionari</h2>
+    <p class="mb-4 ">
+        Testul 1 (T1) va avea loc Joi 09.11.2023, sala C309
+        <ul class="list-disc pl-5 mb-4">
+            <li class="mb-1">In intervalul 08:00-08:50: Grupele A1 si A2</li>
+            <li class="mb-1">In intervalul 09:00-09:50: Grupa A3</li>
+        </ul>
+        Intrati in sala cu cel putin 5 minute inainte de inceperea testului. Subiectele vor fi distribuite la ora fixa.
+    </p>
+</section>
+
 
 <section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
     <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkm5gCkbFwQSMky4lVp3ccPx4u_v6DPu19ODryzSOkf3tS-JMe3D30RuLW1FJNuZysJHoL195jAgwc/pub?gid=189153332&single=true" target="_blank">
@@ -17,6 +30,8 @@
         </button>
     </a>
 </section>
+
+
 
 
 @foreach(var currentWeekData in weekData)
@@ -56,7 +71,7 @@
     </p>
 
     <h3 class="text-xl font-semibold  mb-2">Teste si examene</h3>
-    <ul class="list-disc pl-5 mb-4 ">
+    <ul class="list-disc pl-5 mb-4">
         <li class="mb-1">T1 - maxim 6p, minim 1.5p - Test in prima jumatate a semestrului (sapt. ~5-6)</li>
         <li class="mb-1">T2 - maxim 6p, minim 1.5p - Test in a doua jumatate a semestrului (sapt. ~11-12)</li>
         <li class="mb-1">P1 - maxim 10p, minim 2.5p - Examen partial</li>
@@ -140,6 +155,12 @@
         }
 
         aux = await WeekDataService.GetWeekDataAsync(4);
+        if (aux != null)
+        {
+            weekData.Add(aux);
+        }
+
+        aux = await WeekDataService.GetWeekDataAsync(5);
         if (aux != null)
         {
             weekData.Add(aux);
