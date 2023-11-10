@@ -1,0 +1,33 @@
+{
+    "WeekNumber": 6,
+    "UploadFormLink": "https://forms.gle/oTL5ow7CRfXNP7ek8",
+    "Homework": "Exercitiile: 3.16, 3.18, 3.19, 3.21, 3.22, 3.23 - Preferabil Latex",
+    "Deadline": "Deadline Ora 08:00 AM, Vineri, 17 Noiembrie 2023.",
+    "StudentGroups":
+    [
+        {
+            "GroupName": "A1",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+                "TBA"
+            ]
+        },
+        {
+            "GroupName": "A2",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+                "TBA"
+            ]
+        },
+        {
+            "GroupName": "A3",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+                "TBA"
+            ]
+        }
+    ]
+}

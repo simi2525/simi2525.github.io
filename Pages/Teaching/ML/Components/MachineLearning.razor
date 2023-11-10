@@ -172,6 +172,12 @@
         {
             weekData.Add(aux);
         }
+
+        aux = await WeekDataService.GetWeekDataAsync(7);
+        if (aux != null)
+        {
+            weekData.Add(aux);
+        }
         
         weekData.Reverse();
     }
