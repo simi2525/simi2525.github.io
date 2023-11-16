@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-vJEPfOXqih85ccBVqNAVTP6NaULIILSV\/airajdIF\/g=",
+      "hash": "sha256-ISYKJa6vsAKiW4pXNSL4PsviKCbHOZjpcPVUDXI4arU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -33,11 +33,11 @@
       "url": "_framework\/dotnet.native.8.0.0.6d451ju3b3.js"
     },
     {
-      "hash": "sha256-9ytlLFS2oDAQUqAN+nCmk4S49D\/UKAns8XQsW+bN7Lw=",
+      "hash": "sha256-9TMUqOHlobkaZ9kpDc75b6CAL6VQM\/u+my7h8Kjzhr4=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-sxT2Nd2qLktzspNAYsn8lv9S11K3HYIxzIZ5LBVR67s=",
+      "hash": "sha256-4ZcZ3pwzcPePTTmOyv6Y4il94DvOmPc+lO4HqnxOsRY=",
       "url": "_framework\/cristian.simionescu.me.wasm"
     },
     {
@@ -469,6 +469,14 @@
       "url": "assets\/images\/SVG\/Logo.svg"
     },
     {
+      "hash": "sha256-ookiJz57rZI1vwHXi6F2qJUf\/mleW5+FwDXs0\/X2uG4=",
+      "url": "assets\/teaching\/2023\/ML\/ML_2023___T1___Subject_1___Solved.pdf"
+    },
+    {
+      "hash": "sha256-WCZNocS0JWW2a6V6iR+c1u6zyx9vnBXLB8cZYxaGPiE=",
+      "url": "assets\/teaching\/2023\/ML\/ML_2023___T1___Subject_2___Solved.pdf"
+    },
+    {
       "hash": "sha256-4mJ5afLaowVMuW1RR4LbpMujhV\/OIx9FOJKeligxL+U=",
       "url": "css\/app.css"
     },
@@ -561,5 +569,5 @@
       "url": "manifest.webmanifest"
     }
   ],
-  "version": "r\/nBZM7t"
+  "version": "LS96\/Jmf"
 };
