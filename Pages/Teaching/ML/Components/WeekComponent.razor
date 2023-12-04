@@ -7,6 +7,10 @@
 <section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
     <h2 class="text-2xl font-semibold mb-4">Tema Saptamana @WeekNumber</h2>
     <h3 class="text-xl font-semibold mb-2">@Homework</h3>
+    @if(!string.IsNullOrEmpty(AdditionalInformation))
+    {
+        <h3 class="text-xl font-semibold mb-2">Informatii aditionale: @AdditionalInformation</h3>
+    }
     <p class="mb-4">
         Deadline @Deadline
     </p>
@@ -67,6 +71,7 @@
     [Parameter] public string Homework { get; set; }
     [Parameter] public string UploadFormLink { get; set; }
     [Parameter] public string Deadline { get; set; }
+    [Parameter] public string AdditionalInformation { get; set; }
     [Parameter] public List<StudentGroup> StudentGroups { get; set; } = new List<StudentGroup>();
 
     private string ActiveGroup { get; set; } = "A1"; // Default active group

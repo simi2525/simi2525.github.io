@@ -10,6 +10,47 @@
     <h1 class="text-4xl font-bold  mb-4">Machine Learning Seminar</h1>
 </section>
 
+
+
+<section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
+    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkm5gCkbFwQSMky4lVp3ccPx4u_v6DPu19ODryzSOkf3tS-JMe3D30RuLW1FJNuZysJHoL195jAgwc/pub?gid=189153332&single=true" target="_blank">
+        <button class="bg-white hover:bg-gray-300 text-[#000033] font-bold py-2 px-4 rounded transition duration-300">
+                Vezi note seminar
+        </button>
+    </a>
+</section>
+
+@foreach(var currentWeekData in weekDataSecondPart)
+{
+    <WeekComponent
+        WeekNumber="@currentWeekData.WeekNumber"
+        UploadFormLink="@currentWeekData.UploadFormLink"
+        Homework="@currentWeekData.Homework"
+        Deadline="@currentWeekData.Deadline"
+        StudentGroups="@currentWeekData.StudentGroups"
+        AdditionalInformation="@currentWeekData.AdditionalInformation"
+    />
+}
+
+
+<section class="mt-8 text-center">
+    <h2 class="text-3xl font-bold  mb-4">Saptamana 10 - AdaBoost</h2>
+</section>
+
+
+<section class="mt-8 text-center">
+    <h2 class="text-3xl font-bold  mb-4">Saptamana 9 - Liber 1 Decembrie</h2>
+</section>
+
+
+
+<section class="mt-8 text-center">
+    <h2 class="text-3xl font-bold  mb-4">Saptamana 8 - Partial</h2>
+</section>
+
+
+
+
 <section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
     <h2 class="text-2xl font-semibold  mb-4">Atentionari</h2>
     <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkm5gCkbFwQSMky4lVp3ccPx4u_v6DPu19ODryzSOkf3tS-JMe3D30RuLW1FJNuZysJHoL195jAgwc/pubhtml?gid=1916362879&single=true" target="_blank">
@@ -38,15 +79,6 @@
 </section>
 
 
-<section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
-    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkm5gCkbFwQSMky4lVp3ccPx4u_v6DPu19ODryzSOkf3tS-JMe3D30RuLW1FJNuZysJHoL195jAgwc/pub?gid=189153332&single=true" target="_blank">
-        <button class="bg-white hover:bg-gray-300 text-[#000033] font-bold py-2 px-4 rounded transition duration-300">
-                Vezi note seminar
-        </button>
-    </a>
-</section>
-
-
 
 
 @foreach(var currentWeekData in weekData)
@@ -57,6 +89,7 @@
         Homework="@currentWeekData.Homework"
         Deadline="@currentWeekData.Deadline"
         StudentGroups="@currentWeekData.StudentGroups"
+        AdditionalInformation="@currentWeekData.AdditionalInformation"
     />
 }
 
@@ -153,6 +186,7 @@
 
 @code {
     private List<WeekData> weekData = new List<WeekData>();
+    private List<WeekData> weekDataSecondPart = new List<WeekData>();
 
     protected override async Task OnInitializedAsync()
     {
@@ -193,7 +227,15 @@
         {
             weekData.Add(aux);
         }
-        
+
         weekData.Reverse();
+
+        aux = await WeekDataService.GetWeekDataAsync(11);
+        if (aux != null)
+        {
+            weekDataSecondPart.Add(aux);
+        }
+
+        weekDataSecondPart.Reverse();
     }
 }
