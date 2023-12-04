@@ -1,0 +1,31 @@
+{
+    "WeekNumber": 11,
+    "UploadFormLink": "https://forms.gle/vaTr9FuM5kB4iAqF9",
+    "Homework": "Exercitiile: TBA - Preferabil Latex",
+    "Deadline": "Deadline Ora 08:00 AM, Vineri, 15 Decembrie 2023.",
+    "AdditionalInformation": "Suplinit de Corina Dimitriu",
+    "StudentGroups":
+    [
+        {
+            "GroupName": "A1",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+            ]
+        },
+        {
+            "GroupName": "A2",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+            ]
+        },
+        {
+            "GroupName": "A3",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+            ]
+        }
+    ]
+}
