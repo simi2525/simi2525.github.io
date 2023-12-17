@@ -1,0 +1,34 @@
+{
+    "WeekNumber": 12,
+    "UploadFormLink": "https://forms.gle/9dKY47rNdxCnH3Wv6",
+    "Homework": "Exercitiile: 7.40,7.41,7.43,7.46,7,49,7.50,7.52,7.53,7.54",
+    "Deadline": "Deadline Ora 08:00 AM, Vineri, 22 Decembrie 2023.",
+    "AdditionalInformation": "Test Scurt 2: AdaBoost + Clusterizare Ierarhica",
+    "StudentGroups":
+    [
+        {
+            "GroupName": "A1",
+            "PresentationStudents": [
+                "Enea Victor-Robert"
+            ],
+            "RandomCheckStudents": [
+            ]
+        },
+        {
+            "GroupName": "A2",
+            "PresentationStudents": [
+                "Solomon Mihai"
+            ],
+            "RandomCheckStudents": [
+            ]
+        },
+        {
+            "GroupName": "A3",
+            "PresentationStudents": [
+                "Dogaru Stefan Adrian"
+            ],
+            "RandomCheckStudents": [
+            ]
+        }
+    ]
+}
