@@ -20,6 +20,27 @@
     </a>
 </section>
 
+
+<section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
+    <h2 class="text-2xl font-semibold  mb-4">Atentionari</h2>
+
+    @* <p class="my-4 ">
+        Testul 2 (T2) va avea loc Joi 11.01.2024, sala C309 (AdaBoost + Clusterizare Ierarhica + K-means)
+        <ul class="list-disc pl-5 mb-4">
+            <li class="mb-1">In intervalul 08:00-08:50: Grupele A1 si A2</li>
+            <li class="mb-1">In intervalul 09:00-09:50: Grupa A3</li>
+        </ul>
+        Intrati in sala cu cel putin 5 minute inainte de inceperea testului. Subiectele vor fi distribuite la ora fixa.
+    </p> *@
+
+    <p class="my-4 ">
+        Testul Scurt 2 (TS2) nu va mai avea loc. In schimb, punctajul alocat acestuia va fi distribuit proiectului practic (details TBA)
+    </p>
+</section>
+
+
+
+
 @foreach(var currentWeekData in weekDataSecondPart)
 {
     <WeekComponent
@@ -57,7 +78,6 @@
                 Note P1
         </button>
     </a>
-    
 
     <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkm5gCkbFwQSMky4lVp3ccPx4u_v6DPu19ODryzSOkf3tS-JMe3D30RuLW1FJNuZysJHoL195jAgwc/pubhtml?gid=1916362879&single=true" target="_blank">
         <button class="bg-white hover:bg-gray-300 text-[#000033] font-bold py-2 px-4 rounded transition duration-300">
@@ -241,7 +261,7 @@
         {
             weekDataSecondPart.Add(aux);
         }
-        
+
         aux = await WeekDataService.GetWeekDataAsync(12);
         if (aux != null)
         {
