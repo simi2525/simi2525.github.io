@@ -1,0 +1,31 @@
+{
+    "WeekNumber": 13,
+    "UploadFormLink": "https://forms.gle/9dKY47rNdxCnH3Wv6",
+    "Homework": "Exercitiile: 7.42, 7,45, 7.47, 7.48, 7.51, 3.29, 4.69, 4.71, 0.126 (tema optionala)",
+    "Deadline": "Deadline Ora 08:00 AM, Vineri, 12 Ianuarie 2024.",
+    "AdditionalInformation": "Test 2 (T2)",
+    "StudentGroups":
+    [
+        {
+            "GroupName": "A1",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+            ]
+        },
+        {
+            "GroupName": "A2",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+            ]
+        },
+        {
+            "GroupName": "A3",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+            ]
+        }
+    ]
+}

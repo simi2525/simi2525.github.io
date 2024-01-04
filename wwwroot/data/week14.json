@@ -1,0 +1,31 @@
+{
+    "WeekNumber": 14,
+    "UploadFormLink": "https://forms.gle/9dKY47rNdxCnH3Wv6",
+    "Homework": "Exercitiile: TBD",
+    "Deadline": "Deadline Ora 08:00 AM, Vineri, 19 Ianuarie 2024.",
+    "AdditionalInformation": "",
+    "StudentGroups":
+    [
+        {
+            "GroupName": "A1",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+            ]
+        },
+        {
+            "GroupName": "A2",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+            ]
+        },
+        {
+            "GroupName": "A3",
+            "PresentationStudents": [
+            ],
+            "RandomCheckStudents": [
+            ]
+        }
+    ]
+}
