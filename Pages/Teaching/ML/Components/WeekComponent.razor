@@ -24,6 +24,9 @@
     }
 </section>
 
+
+@if(StudentGroups.Any(sg => sg.PresentationStudents.Count>0))
+{
 <section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
     <h2 class="text-2xl font-semibold mb-4">Studenti alesi pentru prezentare la tabla:</h2>
     @foreach (var group in StudentGroups)
@@ -37,6 +40,10 @@
         </ul>
     }
 </section>
+}
+
+@if(StudentGroups.Any(sg => sg.RandomCheckStudents.Count>0))
+{
 
 <section class="my-4 p-4 rounded-lg shadow-lg bg-opacity-25 bg-white">
     <h2 class="text-2xl font-semibold mb-4">Studenti alesi aleatoriu pentru verificare tema + neincarcat:</h2>
@@ -65,6 +72,7 @@
         </div>
     }
 </section>
+}
 
 @code {
     [Parameter] public int WeekNumber { get; set; }
