@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "cristian.simionescu.me",
   "resources": {
-    "hash": "sha256-rbObxOWKSqPJORy3N40M+vc/E82YRgr1Scoh/enXxpk=",
+    "hash": "sha256-xhNd7uad5i6R3aJ2f3RPZfxfqlXVn28BvFLxVBX1QHA=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.6d451ju3b3.js": "sha256-6ClQfdyHd8eK4bC23D5O6YjseUChL9DPiPOAVUiiBS0="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.1.jvv0ztohpa.js": "sha256-HZOoaGpz9ekMa/oSmeApSKp3DXNdVUq2UBqsTIIiN8A="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-956+5Asurnzt1b/1ZxQtSxTgkH3tsVCNX6oMT7GdaNU="
+      "dotnet.native.wasm": "sha256-WDpLc4UI+DQbR43f8XlOXJAgLDn4G/TU+vfV3wLALYg="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "cristian.simionescu.me.wasm": "sha256-ijssCQEst2BH8kkbFC8sIhYfMhQd7tYSJNOJraWkrX4=",
+      "cristian.simionescu.me.wasm": "sha256-9TKGSt4VTI2hLBMkNLAkzLFL+8c1L5sZnlut3tBOls8=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-gTnWLkHDVIbqrSOppwl8gqi5I5xue8ZE8XJPhHHYCPY=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-GtxmSel6kj8c9n1edrc5xqOJzmubKS3T4OPDza8KTqI=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-adzPHvLtMQODQ3pjxkXlTN/IwN9e3N/mYDqJAv5vml0=",
