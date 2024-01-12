@@ -76,6 +76,11 @@
 
     private string ActiveGroup { get; set; } = "A1"; // Default active group
 
+    protected override void OnParametersSet()
+    {
+        StudentGroups = StudentGroups.FindAll(sg => sg.RandomCheckStudents.Count > 0 && sg.PresentationStudents.Count > 0).ToList();
+    }
+
     private void SetActiveGroup(string groupName)
     {
         ActiveGroup = groupName;
