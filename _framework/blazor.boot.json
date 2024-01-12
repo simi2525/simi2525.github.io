@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "cristian.simionescu.me",
   "resources": {
-    "hash": "sha256-qceN7OIYW6/TrSGBiP8c9C3tybYpBKPVRXpFwxRu2Qw=",
+    "hash": "sha256-NM0QxygcCTcHBzmqE+nsMVwXWdGCehuecjkeRizq8nY=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.6d451ju3b3.js": "sha256-6ClQfdyHd8eK4bC23D5O6YjseUChL9DPiPOAVUiiBS0="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.1.jvv0ztohpa.js": "sha256-HZOoaGpz9ekMa/oSmeApSKp3DXNdVUq2UBqsTIIiN8A="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-Y2ajfvxGvGPnWL0jMZUWfV3+q8tYg9sO35yps/1r5Hc="
+      "dotnet.native.wasm": "sha256-lqczO0L60pRXXGTho3tHaaL/l6guVoV+JAK+dmvinEg="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "cristian.simionescu.me.wasm": "sha256-PGKwtw4/mOMtZoMczVIMyhLlFTtNKkKs+prF6d05+nA=",
+      "cristian.simionescu.me.wasm": "sha256-tTNTZ0AgZDM/CIojDjizaU7DuOx0ZuFeyBxGFWuS/fw=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-gTnWLkHDVIbqrSOppwl8gqi5I5xue8ZE8XJPhHHYCPY=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-GtxmSel6kj8c9n1edrc5xqOJzmubKS3T4OPDza8KTqI=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-adzPHvLtMQODQ3pjxkXlTN/IwN9e3N/mYDqJAv5vml0=",
@@ -36,7 +36,7 @@
       "System.Collections.wasm": "sha256-I5f+KimsLRzY4UcaLAJrcg6b3CXLjP9B3jyOplR5whQ=",
       "System.ComponentModel.wasm": "sha256-/6Kik6mC6ZHx8OXft116HbGv8VWDCF3oge/a6pf8jB8=",
       "System.Diagnostics.DiagnosticSource.wasm": "sha256-YZEdbgjQv9QCy1YNmUXsytRH7W9aO2Y5oVl/95GQPhI=",
-      "System.Linq.wasm": "sha256-1eGE+nRd6ng/rYqzzH7CmgYvJQkRec2XZ6aKdCXheJ8=",
+      "System.Linq.wasm": "sha256-cy6eM8x8f89CHe8jOp4LyjCVt+3KPCd3Ow9IZaQrK/8=",
       "System.Memory.wasm": "sha256-knjbGOCBheL9B4otKa8RL1ub1dK0cjg0Yp5Obly7bqU=",
       "System.Net.Http.wasm": "sha256-0dSlpx3oeZneNdbrCUYLqoPYvUJTq3pgKHDCrIs5KiQ=",
       "System.Net.Primitives.wasm": "sha256-nF9fk722J9hXgRTF4PmISiSuCglcT8FA8U0NrFaluAg=",
