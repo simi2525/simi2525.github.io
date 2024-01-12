@@ -288,6 +288,13 @@
         {
             weekDataThirdPart.Add(aux);
         }
+
+        aux = await WeekDataService.GetWeekDataAsync(14);
+        if (aux != null)
+        {
+            weekDataThirdPart.Add(aux);
+        }
+        
         weekDataThirdPart.Reverse();
     }
 }
