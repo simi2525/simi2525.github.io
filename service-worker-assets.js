@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-cX41TdGqnqZaHNm7nxgNsQ6yPKVoLLbl2fxN7Y0sKJo=",
+      "hash": "sha256-ZGdJ2w1rrtOaXiDI9oTvtwkQo7d8tYzNdcm0MDfTb5E=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -33,11 +33,11 @@
       "url": "_framework\/dotnet.native.8.0.1.6d451ju3b3.js"
     },
     {
-      "hash": "sha256-WDpLc4UI+DQbR43f8XlOXJAgLDn4G\/TU+vfV3wLALYg=",
+      "hash": "sha256-Y2ajfvxGvGPnWL0jMZUWfV3+q8tYg9sO35yps\/1r5Hc=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-9TKGSt4VTI2hLBMkNLAkzLFL+8c1L5sZnlut3tBOls8=",
+      "hash": "sha256-PGKwtw4\/mOMtZoMczVIMyhLlFTtNKkKs+prF6d05+nA=",
       "url": "_framework\/cristian.simionescu.me.wasm"
     },
     {
@@ -113,7 +113,7 @@
       "url": "_framework\/System.Diagnostics.DiagnosticSource.wasm"
     },
     {
-      "hash": "sha256-nypze7Qho4b9W+bkgJ+KV352MjFT2uKplyGDA6iU8Ak=",
+      "hash": "sha256-1eGE+nRd6ng\/rYqzzH7CmgYvJQkRec2XZ6aKdCXheJ8=",
       "url": "_framework\/System.Linq.wasm"
     },
     {
@@ -129,7 +129,7 @@
       "url": "_framework\/System.Net.Primitives.wasm"
     },
     {
-      "hash": "sha256-WZy0qWeE0\/I32pBV0l1qaMPUU80u3zqxwop8xFM1aRs=",
+      "hash": "sha256-zNSBFisRk+DBpbtlxWQC14PSERpKLbY1Az3Z7iWuKbY=",
       "url": "_framework\/System.Private.CoreLib.wasm"
     },
     {
@@ -141,7 +141,7 @@
       "url": "_framework\/System.Runtime.InteropServices.JavaScript.wasm"
     },
     {
-      "hash": "sha256-9vWL5c67zt3hEP8yTh9nVRubQe+nJfnxJJ65KD7\/F8c=",
+      "hash": "sha256-EHL2sfaoGKEE02FSmxWkTPPuHWBGicopF\/176HO9mso=",
       "url": "_framework\/System.Runtime.wasm"
     },
     {
@@ -525,7 +525,7 @@
       "url": "data\/week13.json"
     },
     {
-      "hash": "sha256-QmAWetHObxbq7Kx9AKjAeAVFy4qfipbMaDQWU0vO8UQ=",
+      "hash": "sha256-9Vb7JwJYcRMARNONhnXLhxcDO6vA59kMorEJJk+2V2o=",
       "url": "data\/week14.json"
     },
     {
@@ -585,5 +585,5 @@
       "url": "manifest.webmanifest"
     }
   ],
-  "version": "45170HOx"
+  "version": "iMAoKADj"
 };
