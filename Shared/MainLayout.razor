@@ -1,11 +1,9 @@
-﻿@inherits LayoutComponentBase
+@inherits LayoutComponentBase
 
-<div class="flex flex-col flex-wrap w-full p-0 ">
-
-
-    <div class="flex flex-row justify-between items-center fixed top-0 w-full z-10 p-4 select-none z-50 bg-[#000033] shadow-lg">
+<div class="flex flex-col flex-wrap w-full p-0">
+    <div class="flex flex-row justify-between items-center fixed top-0 w-full z-50 p-4 select-none bg-[#000033] shadow-lg">
         <a href="/" aria-label="Home" class="block h-14 w-44">
-            <div class="flex items-center justify-start">
+               <div class="flex items-center justify-start">
                 <svg id="Logo" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 517 167">
                     <defs>
                         <style>
@@ -54,51 +52,30 @@
             </div>
         </a>
 
-
-        <div class="relative lg:absolute lg:right-0 text-white space-x-4">
-            <div class="p-2 bg-[#000033] rounded shadow-md">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                     id="menu-button"
-                     class="h-6 w-6 cursor-pointer lg:hidden block"
-                     fill="none"
-                     viewBox="0 0 24 24"
-                     stroke="currentColor">
-                    <path stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h16M4 18h16" />
+        <div class="relative text-white">
+            <button id="menu-button" class="p-4 -mr-4 lg:-mr-0 bg-transparent border-none cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
-                <div class="hidden w-full lg:flex lg:items-center lg:w-auto absolute lg:relative lg:top-0 right-16 lg:right-0 z-10 lg:z-0" id="menu">
-                    <ul class="pt-4 lg:flex lg:justify-between lg:pt-0 bg-[#000033] rounded shadow-md">
-                        <li>
-                            <a class="lg:p-4 py-2 block hover:text-gray-300" href="/teaching/ml">Machine Learning</a>
-                        </li>
-                        <li>
-                            <a class="lg:p-4 py-2 block hover:text-gray-300" href="https://pmp.cristian.simionescu.me">Probabilistic Modeling and Programming</a>
-                        </li>
-                        <li>
-                            <a class="lg:p-4 py-2 block hover:text-gray-300" href="https://atnn.cristian.simionescu.me">Advanced Topics in Neural Networks</a>
-                        </li>
-                    </ul>
-                </div>
+            </button>
+            <div id="menu" class="hidden absolute right-0 mt-1 w-48 bg-[#000033] rounded shadow-md lg:flex lg:items-center lg:relative lg:mt-0 lg:w-auto">
+                <ul class="flex flex-col lg:flex-row lg:space-x-4">
+                    <li><a href="/teaching/ml" class="block px-4 py-2 hover:text-gray-300">Machine Learning</a></li>
+                    <li><a href="https://pmp.cristian.simionescu.me" class="block px-4 py-2 hover:text-gray-300">Probabilistic Modeling and Programming</a></li>
+                    <li><a href="https://atnn.cristian.simionescu.me" class="block px-4 py-2 hover:text-gray-300">Advanced Topics in Neural Networks</a></li>
+                </ul>
             </div>
         </div>
-
-
-
-
     </div>
+
     <script>
         const button = document.querySelector('#menu-button');
         const menu = document.querySelector('#menu');
 
-
         button.addEventListener('click', () => {
             menu.classList.toggle('hidden');
         });
-
     </script>
-
 
     <main class="flex flex-row max-w-3xl mx-auto pb-12 pt-24">
         <article class="content px-4">
