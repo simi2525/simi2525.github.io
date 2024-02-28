@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-9D8XyS7KhReWmw7daY5t3q9Jdmsa8OUvM739Q0KEFa0=",
+      "hash": "sha256-8EY7RbfW0JJW9Paa1QSTNN4LqOh4+RD+AgEaASi9SNk=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -33,11 +33,11 @@
       "url": "_framework\/dotnet.native.8.0.2.6d451ju3b3.js"
     },
     {
-      "hash": "sha256-Ng0FBoYvdRNW6I45fMjK1J3zJbkeeTF8eHCqTSuew3w=",
+      "hash": "sha256-cntLDSLfNwhXm2STXkoVkzsGcML2HzmeXTjw\/wpkXRs=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-Ye\/D7Ng951wMTO\/+9VP74PwGC8Yv1s0o0tkRh4i+fWk=",
+      "hash": "sha256-5iPOBbD5mjV8RmXSQ311vkkgGO4tWUZybn3RhCcbOJw=",
       "url": "_framework\/cristian.simionescu.me.wasm"
     },
     {
@@ -569,7 +569,15 @@
       "url": "documents\/papers\/Social_Media_Post_Impact_Prediction.pdf"
     },
     {
-      "hash": "sha256-TdtX5aXJga5DSxY6szDkIzUc3uyqGtMBAPs633KVFiY=",
+      "hash": "sha256-VItnxCBb+sgAHmAA+s7TRJnhWgPPN6vFfWZEYXAgdSg=",
+      "url": "favicon-dark.ico"
+    },
+    {
+      "hash": "sha256-bHz3GdMWf0XgGvRWrTIlJ09uSwkqGblKQC89SRZQGRQ=",
+      "url": "favicon-light.ico"
+    },
+    {
+      "hash": "sha256-qZ4yYdNUaX9zDqWuoKeADBo+i5eE+s3Wh3RJqxXcJ2Q=",
       "url": "index.html"
     },
     {
@@ -585,5 +593,5 @@
       "url": "manifest.webmanifest"
     }
   ],
-  "version": "BR3mBIK2"
+  "version": "gT3sOhO\/"
 };

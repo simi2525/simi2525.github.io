@@ -62,7 +62,7 @@
                     const navWidth = document.querySelector('.fixed').offsetWidth;
         
                     // If the total width of menu items is greater than the nav width, show the button
-                    if (menuWidth > navWidth) {
+                    if (menuWidth > navWidth - 100) {
                         menuButton.style.display = 'block';
                         menu.classList.add('hidden');
                     } else {
