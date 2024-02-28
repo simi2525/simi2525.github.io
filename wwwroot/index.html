@@ -62,7 +62,7 @@
                     const navWidth = document.querySelector('.fixed').offsetWidth;
         
                     // If the total width of menu items is greater than the nav width, show the button
-                    if (menuWidth > navWidth - 100) {
+                    if (menuWidth > navWidth - 200) {
                         menuButton.style.display = 'block';
                         menu.classList.add('hidden');
                     } else {
@@ -77,6 +77,17 @@
         
             // Check on every window resize event
             window.addEventListener('resize', checkMenu);
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const button = document.querySelector('#menu-button');
+            const menu = document.querySelector('#menu');
+
+            button.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+            });
         });
     </script>
 
