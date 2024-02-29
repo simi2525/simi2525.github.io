@@ -84,49 +84,6 @@
     </main>
 </div>
 
-<script>
-    function checkMenu() {
-        const menuButton = document.querySelector('#menu-button');
-        const menu = document.querySelector('#menu');
-
-        // Check if menu exists to avoid null reference errors
-        if (menu) {
-            const menuItems = menu.querySelectorAll('a');
-            
-            // Calculate the total width of all menu items
-            let menuWidth = 0;
-            menuItems.forEach((link) => {
-                menuWidth += link.offsetWidth;
-            });
-
-            // Get the available width for the menu items
-            const navWidth = document.querySelector('.fixed').offsetWidth;
-
-            // If the total width of menu items is greater than the nav width, show the button
-            if (menuWidth > navWidth - 200) {
-                menuButton.style.display = 'block';
-                menu.classList.add('hidden');
-            } else {
-                menuButton.style.display = 'none';
-                menu.classList.remove('hidden');
-            }
-        }
-    }
-
-    function setupEventListeners()
-    {
-        const button = document.querySelector('#menu-button');
-        const menu = document.querySelector('#menu');
-
-        button.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        });
-        
-        checkMenu();
-        window.addEventListener('resize', checkMenu);
-    }
-</script>
-
 
 @code {
     protected override async Task OnAfterRenderAsync(bool firstRender)
