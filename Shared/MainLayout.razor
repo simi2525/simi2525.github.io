@@ -1,3 +1,4 @@
+@inject IJSRuntime JS
 @inherits LayoutComponentBase
 
 <div class="flex flex-col flex-wrap w-full p-0">
@@ -112,22 +113,28 @@
         }
     }
 
-    // Initial check when the page is loaded
-    checkMenu();
+    function setupEventListeners()
+    {
+        const button = document.querySelector('#menu-button');
+        const menu = document.querySelector('#menu');
 
-    // Check on every window resize event
-    window.addEventListener('resize', checkMenu);
-</script>
-
-<script>
-    const button = document.querySelector('#menu-button');
-    const menu = document.querySelector('#menu');
-
-    button.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-    });
+        button.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+        
+        checkMenu();
+        window.addEventListener('resize', checkMenu);
+    }
 </script>
 
 
 @code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Execute your JavaScript here using JSInterop
+            await JS.InvokeAsync<object>("setupEventListeners");
+        }
+    }
 }
