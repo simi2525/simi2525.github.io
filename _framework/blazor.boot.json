@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "cristian.simionescu.me",
   "resources": {
-    "hash": "sha256-xkdAV1X2AodMH0kSztJEm4R90+hHeSZ9dL5IqTQMgOU=",
+    "hash": "sha256-qPLYtTRyPzZ5nae8iRPlbVqi8CNg5l42KicsNwCMJ74=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.6d451ju3b3.js": "sha256-twmeylC+IPvs5oN4LRETYuUxSuJm5fAJEPluXOljVMo="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.2.xpxg2k6ml2.js": "sha256-54KSaoOArNfygQbV+r4B5y3ys53v2tnvFIyZcZiUmi0="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-L0KfKVzSCtSSHMn46RT8r6J7JFdjlUi1ZadJInskWHQ="
+      "dotnet.native.wasm": "sha256-Us9QaUUwxe0+K6jwAW/oY7bLCrzmzF6S5n2E+NyYc20="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "cristian.simionescu.me.wasm": "sha256-zv1ZTv0ztyS+vD/XRhcFmvcEEitX+YkbdAeJzWk6Tuk=",
+      "cristian.simionescu.me.wasm": "sha256-KxvEAOpXhjz79GOyXu2ZenKJK+Lk/EqltBCSPby9sqo=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-gTnWLkHDVIbqrSOppwl8gqi5I5xue8ZE8XJPhHHYCPY=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-GtxmSel6kj8c9n1edrc5xqOJzmubKS3T4OPDza8KTqI=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-adzPHvLtMQODQ3pjxkXlTN/IwN9e3N/mYDqJAv5vml0=",
@@ -43,7 +43,7 @@
       "System.Private.CoreLib.wasm": "sha256-ZB4EgblBTe+WVE1dPDtZEqK8T/wcT0rg/yBc5Kl+iUo=",
       "System.Private.Uri.wasm": "sha256-juqhvA4ZC4NXXrNlOjfWps9XLjgDT3hv2bPoI/EMdFs=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-ycxtr4GQ01jpMX2HNlyDi/PdRSz1RFbrAfBdFnU1ad8=",
-      "System.Runtime.wasm": "sha256-//bc6BbZ1ep4IACK58LWTBcHiJgNsqYpeGBJCgGfnkk=",
+      "System.Runtime.wasm": "sha256-Q5avxDC1ZR+bSZVyq1wkSMrrZ3ba9ZAAYAjIuvghJmc=",
       "System.Text.Encodings.Web.wasm": "sha256-Cf43J3j2LxBKC5ZEcVZHqaIxmV9PeFKb32dE6sLRju0=",
       "System.Text.Json.wasm": "sha256-Y8FAZd8tiuawAyOUjJ2EviVyKDz/sD6NxludsQFbZbg=",
       "System.Text.RegularExpressions.wasm": "sha256-W20q/uEUAv0A+F6irUkY0pCZJo76wNuWpz3XgcLFB2M="
